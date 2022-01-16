@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->    
+<head>
+        <meta charset="utf-8">
+        <title>
+            Oca de Oro eSports
+        </title>
+        <meta content="" name="description">
+        <meta content="" name="author">
+        <meta content="" name="keywords">
+        <meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" name="viewport">
+        <link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+        <link href="css/style-dark.css" media="all" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome-4.6.2/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+        <link href="css/colors/colors.css" media="screen" rel="stylesheet" title="colors" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CDosis:200,300,400,500,600,700,800%7COswald:300,400,700%7CMontserrat:400,700" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="img/favicons/favicon.ico">
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- preloader start -->
+        <div id="preloader">
+            <div id="preloader-status">
+                <div class="preloader-position preloader-effect">
+                    <span></span>
+                </div>
+            </div>
+        </div><!-- preloader end -->
+        <div class="hero-fullscreen hero-bg">
+            <div class="slide-YT hero-fullscreen">
+                <div class="slide bg-img-YT"></div>
+                <div id="videoContainment"></div><a class="player" data-property=
+                "{videoURL:'https://youtu.be/KSCmMmlaKE4', mute:true, showControls:false, quality:'default', opacity:1, containment:'#videoContainment', optimizeDisplay:true, loop:true, startAt:0, autoPlay:true, showYTLogo:false, addRaster:false, realfullscreen:true}"
+                id="bgndVideo"></a>
+            </div>
+            <!-- preload content start -->
+            <div class="preload-content"></div><!-- preload content end -->
+        </div><!-- hero slider end -->
+        <!-- menu position start -->
+        <div class="menu-trigger top-position" id="menu">
+            <!-- menu button start -->
+            <button class="lines-button minus menu-toggle" id="main-menu-caller" type="button"><span class="lines"></span></button> <!-- menu button end -->
+        </div><!-- menu position end -->
+        <!-- ui layer start -->
+        <div id="ui-layer">
+            <!-- menu start -->
+            <div id="menu-wrapper">
+                <!-- navigation start -->
+                <div id="main-menu">
+                    <div class="menu-nav-wrapper">
+                        <nav class="menu-nav">
+                            <ul class="brackets">
+                                <li class="menu">
+                                    <a class="menu-state active" href="#" id="fire-home">Inicio</a>
+                                </li>
+                                <li class="menu">
+                                    <a class="menu-state" href="#" id="fire-about">Nosotros</a>
+                                </li>
+                                <li class="menu">
+                                    <a class="menu-state" href="#" id="fire-services">Trabajo</a>
+                                </li>
+                                <!-- <li class="menu">
+                                    <a class="menu-state" href="#" id="fire-photos">Photos</a>
+                                </li> -->
+                                <li class="menu">
+                                    <a class="menu-state" href="#" id="fire-contact">Contacto</a>
+                                </li>
+                                <li class="menu credits">
+                                    <a href="#">&copy;2022 Derechos reservados.</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div><!-- navigation end -->
+            </div><!-- menu end -->
+        </div><!-- ui layer end -->
+        <!-- signup form start -->
+        <div class="ex-modal" hidden>
+            <!-- center container start -->
+            <div class="center-container-home">
+                <!-- center block start -->
+                <div class="center-block-home">
+                    <!-- newsletter form start -->
+                    <h6>
+                        Newsletter sign up
+                    </h6>
+                    <p>
+                        Subscribe today to receive the latest news
+                    </p>
+                    <div id="subscribe-wrapper">
+                        <div id="newsletter">
+                            <div class="newsletter">
+                                <form action="https://dialyzable-mention.000webhostapp.com/odoform.php" id="subscribe" method="post" name="subscribe">
+                                    <span class="input input--kuro"><input class="subscribe-requiredField subscribe-email input__field input__field--kuro" id="subscribe-email" name="subscribe-email"
+                                    type="text"> <label class="input__label input__label--kuro" for="subscribe-email"><span class=
+                                    "mail input__label-content input__label-content--kuro">Email</span></label> <button class="submit-button-2" id="submit-2" type="submit">Subscribe</button></span>
+                                </form>
+                            </div>
+                        </div>
+                    </div><!-- newsletter form end -->
+                    <div class="ex-modal-closer ex-modal-launcher">
+                        <a href="#"><span class="fa fa-times"></span></a>
+                    </div>
+                </div><!-- center block end -->
+            </div><!-- center container end -->
+        </div><!-- signup form end -->
+        <!-- upper page start -->
+        <div class="upper-page current" id="home">
+            <!-- logo start -->
+            <div class="logo top-position"></div><!-- logo end -->
+            <!-- line left start -->
+            <div class="line-left left-position"></div><!-- line left end -->
+            <!-- line right start -->
+            <div class="line-right right-position">
+                <a href="#">&copy;<script>document.write(new Date().getFullYear())</script> Derechos reservados.</a>
+            </div><!-- line right end -->
+            <!-- launcher start -->
+            <div class="launcher bottom-position">
+                <!-- countdown start -->
+                <div id="countdown-wrapper">
+                    <ul id="countdown">
+                        <li>
+                            <!-- <span>
+                                #Go<br/>Team<br/>ODO
+                            </span> -->
+                        </li>
+                        <!-- days start -->
+                        <!-- <li>
+                            <span class="days">#GoTeamODO</span>
+                            <p class="timeRefDays">
+                                Days
+                            </p>
+                        </li> -->
+                        <!-- days end -->
+                    </ul>
+                </div><!-- countdown end -->
+            </div>
+            <!-- <div class="launcher bottom-position">
+                countdown start
+                <div id="countdown-wrapper">
+                    <ul id="countdown">
+                      days start
+                        <li>
+                            <span class="days">00</span>
+                            <p class="timeRefDays">
+                                Days
+                            </p>
+                        </li>days end
+                    </ul>
+                </div>countdown end
+            </div> -->
+            <!-- launcher end -->
+            <!-- social icons start -->
+            <div class="social-icons-wrapper bottom-position">
+                <ul class="social-icons">
+                    <li>
+                        <a class="fa fa-twitter" target="_blank" href="https://twitter.com/ocadeoromx"></a>
+                    </li>
+                    <li>
+                        <a class="fa fa-facebook" target="_blank" href="https://facebook.com/OcaDeOroeSports"></a>
+                    </li>
+                    <!-- <li>
+                        <a class="fa fa-google-plus" href="#"></a>
+                    </li> -->
+                    <!-- <li>
+                        <a class="fa fa-youtube" href="#"></a>
+                    </li> -->
+                    <!-- <li>
+                        <a class="fa fa-linkedin" href="#"></a>
+                    </li> -->
+                    <li>
+                        <a class="fa fa-instagram" target="_blank" href="https://instagram.com/ocadeoro"></a>
+                    </li>
+                    <!-- <li>
+                        <a class="fa fa-tiktok" href=""></a>
+                    </li> -->
+                </ul>
+            </div><!-- social icons end -->
+            <!-- transparent borders start -->
+            <div class="transparent-borders OFF"></div><!-- transparent borders end -->
+            <!-- center container start -->
+            <div class="center-container-home">
+                <!-- center block start -->
+                <div class="center-block-home">
+                    <!-- upper content start -->
+                    <div class="upper-content">
+                        <!-- container start -->
+                        <div class="container sections">
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- introduction start -->
+                                <div class="fin-wrapper introduction">
+                                    <!-- FIN slides start -->
+                                    <div class="fin-slides-wrapper">
+                                        <ul class="fin-slides">
+                                            <li>
+                                                <h3>
+                                                    Pensamos en grande
+                                                </h3>
+                                            </li>
+                                            <li>
+                                                <h3>
+                                                    Inclusividad
+                                                </h3>
+                                            </li>
+                                            <li>
+                                                <h3>
+                                                    Estrategia
+                                                </h3>
+                                            </li>
+                                            <li>
+                                                <h3>
+                                                    Excelencia
+                                                </h3>
+                                            </li>
+                                            <li>
+                                                <h3>
+                                                    Constancia
+                                                </h3>
+                                            </li>
+                                        </ul>
+                                    </div><!-- FIN slides end -->
+                                    <!-- FIN heading start -->
+                                    <div class="fin-heading">
+                                        <h1 class="fin-heading">
+                                            Oca de Oro
+                                        </h1>
+                                    </div><!-- FIN heading end -->
+                                    <!-- FIN subheading start -->
+                                    <div class="fin-subheading color-me">
+                                        &middot; Semi-professional eSports club &middot;
+                                    </div>
+                                    <!-- <div class="fin-subheading">
+                                        &middot; Coming Soon &middot; <a class="ex-modal-launcher" href="#">Subscribe</a> <a class="ex-modal-launcher" href="#"><span class=
+                                        "fa fa-paper-plane color-me"></span></a> &middot;
+                                    </div> -->
+                                    <!-- FIN subheading end -->
+                                </div><!-- introduction end -->
+                            </div><!-- row end -->
+                        </div><!-- container end -->
+                    </div><!-- upper content end -->
+                </div><!-- center block end -->
+            </div><!-- center container end -->
+        </div><!-- upper page end -->
+        <!-- about start -->
+        <div class="lower-page" id="about">
+            <!-- center container start -->
+            <div class="center-container">
+                <!-- center block start -->
+                <div class="center-block">
+                    <!-- lower content start -->
+                    <div class="lower-content">
+                        <!-- container start -->
+                        <div class="container sections">
+                            <!-- row start -->
+                            <div class="row">
+                                <h4>
+                                    //
+                                </h4>
+                                <h2>
+                                    Nosotros <span class="get-behind">Nosotros</span>
+                                </h2>
+                            </div><!-- row end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <div class="dividerOT"></div>
+                            </div>
+                            <!-- row end -->
+                            <!-- skills start -->
+                            <!-- <div class="contentOT">
+                                <div class="colOT">
+                                    <ul id="skills">
+                                        <li>
+                                            <span class="expand identity"></span><span class="skills-description">Identity &middot; 60%</span>
+                                        </li>
+                                        <li>
+                                            <span class="expand development"></span><span class="skills-description">Development &middot; 80%</span>
+                                        </li>
+                                        <li class="last">
+                                            <span class="expand design"></span><span class="skills-description">Design &middot; 100%</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <!-- skills end -->
+                            <!-- row start -->
+                            <!-- <div class="row">
+                                <div class="dividerOT-2"></div>
+                            </div> -->
+                            <!-- row end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>
+                                        Somos un <a href="#">equipo semi-profesional de eSports mexicano</a> liderado por un equipo administrativo multicultural y disciplinado, el cual fue iniciado como un pequeño proyecto y a hoy en día se ha convertido en una <a href="#">organización de individuos profesionales</a> que comparten la misma visión de los eSports para México y el continente.
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <div class="dividerOT"></div>
+                                </div>
+                                <div class="col-md-6" style="text-align: center;">
+                                    <img style="height: 80px;filter: invert(1);" src="img/rocketleague.png">
+                                </div>
+                                <div class="col-md-6" style="text-align: center;">
+                                    <img style="height: 80px;filter: invert(1);" src="img/warzone.png">
+                                </div>
+                                <!-- <div class="col-md-4">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum <a href="#">pharetra congue</a>.
+                                    </p>
+                                    <p>
+                                        Suspendisse ut feugiat orci, in laoreet augue. Aliquam ultricies, ligula non dignissim suscipit, neque nunc efficitur felis.
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <p>
+                                        Curabitur sit amet odio vitae odio gravida tempus. Aenean in lectus neque.
+                                    </p>
+                                    <p>
+                                        Nunc in lacus quis enim ultrices suscipit sit amet id lorem. Sed in lorem felis. Nulla tempus consequat magna, eu <a href="#">finibus mauris</a>.
+                                    </p> -->
+                                </div>
+                            </div><!-- row end -->
+                        </div><!-- container end -->
+                    </div><!-- lower content end -->
+                </div><!-- center container end -->
+            </div><!-- center block end -->
+        </div><!-- about end -->
+        <!-- services start -->
+        <div class="lower-page" id="services">
+            <!-- center container start -->
+            <div class="center-container">
+                <!-- center block start -->
+                <div class="center-block">
+                    <!-- lower content start -->
+                    <div class="lower-content">
+                        <!-- container start -->
+                        <div class="container sections">
+                            <!-- row start -->
+                            <div class="row">
+                                <h4>
+                                    //
+                                </h4>
+                                <h2>
+                                    Modelo de trabajo <span class="get-behind">Modelo de trabajo</span>
+                                </h2>
+                            </div><!-- row end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- divider start -->
+                                <div class="dividerOT"></div><!-- divider end -->
+                            </div><!-- row end -->
+                            <!-- services columns start -->
+                            <div class="services-columns">
+                                <!-- row start -->
+                                <div class="row">
+                                    <div class="col-md-6 services-padding mb40">
+                                        <h5>
+                                            <span class="awesome">Mejora</span> continua
+                                        </h5>
+                                        <p>
+                                            Constantemente nos capacitamos en diversas áreas de gestión administrativa con el objetivo de <a href="#">transmitir la seguridad y tranquilidad</a> que merecen nuestros jugadores y afiliados.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6 services-padding border-left-services mb40">
+                                        <h5>
+                                            <span class="awesome">Compromiso</span> con la comunidad
+                                        </h5>
+                                        <p>
+                                            Sabemos lo importante que es <a href="#">dar resultados</a> tanto a nuestros jugadores como a nuestros afiliados y patrocinadores, por ello hemos adoptado una <a href="#">metodología de trabajo ágil</a> enfocada a nuestro modelo de negocio.
+                                        </p>
+                                    </div>
+                                </div><!-- row end -->
+                                <!-- row start -->
+                                <div class="row">
+                                    <div class="col-md-6 services-padding border-top-services mt40">
+                                        <h5>
+                                            <span class="awesome">Análisis</span> del mercado
+                                        </h5>
+                                        <p>
+                                            Conocemos lo rápido que cambia el mercado de <a href="#">los eSports y la alta demanda</a> que existe por parte de los jugadores talentosos. Por ello, constantemente hacemos estudios al mercado para <a href="#">siempre estar al nivel.</a>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6 services-padding border-left-services border-top-services mt40">
+                                        <h5>
+                                            <span class="awesome">Excelencia</span> deportiva
+                                        </h5>
+                                        <p>
+                                            Juntando estas bases como piezas de un objetivo mayor, <a href="#">reconocemos el esmero y logros de nuestros jugadores</a> formando siempre individuos profesionales en el ambito deportivo.
+                                        </p>
+                                    </div>
+                                </div><!-- row end -->
+                            </div><!-- services columns end -->
+                        </div><!-- container end -->
+                    </div><!-- lower content end -->
+                </div><!-- center container end -->
+            </div><!-- center block end -->
+        </div><!-- services end -->
+        <!-- photos start -->
+        <div class="lower-page" id="photos">
+            <!-- center container start -->
+            <div class="center-container">
+                <!-- center block start -->
+                <div class="center-block">
+                    <!-- lower content start -->
+                    <div class="lower-content">
+                        <!-- container start -->
+                        <div class="container sections">
+                            <!-- row start -->
+                            <div class="row">
+                                <h4>
+                                    //
+                                </h4>
+                                <h2>
+                                    Photos <span class="get-behind">Photos</span>
+                                </h2>
+                            </div><!-- row end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- divider start -->
+                                <div class="dividerOT"></div><!-- divider end -->
+                            </div><!-- row end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- owl carousel start -->
+                                <div class="photos-gallery">
+                                    <ul class="photos-gallery-slider owl-carousel">
+                                        <li>
+                                            <a class="popup-photo" href="img/photos/large/1.jpg"><img alt="Photos" src="img/photos/small/1.png"></a>
+                                        </li>
+                                        <li>
+                                            <a class="popup-photo" href="img/photos/large/2.jpg"><img alt="Photos" src="img/photos/small/2.png"></a>
+                                        </li>
+                                        <li>
+                                            <a class="popup-photo" href="img/photos/large/3.jpg"><img alt="Photos" src="img/photos/small/3.png"></a>
+                                        </li>
+                                        <li>
+                                            <a class="popup-photo" href="img/photos/large/4.jpg"><img alt="Photos" src="img/photos/small/4.png"></a>
+                                        </li>
+                                        <li>
+                                            <a class="popup-photo" href="img/photos/large/5.jpg"><img alt="Photos" src="img/photos/small/5.png"></a>
+                                        </li>
+                                        <li>
+                                            <a class="popup-photo" href="img/photos/large/6.jpg"><img alt="Photos" src="img/photos/small/6.png"></a>
+                                        </li>
+                                        <li>
+                                            <a class="popup-photo" href="img/photos/large/7.jpg"><img alt="Photos" src="img/photos/small/7.png"></a>
+                                        </li>
+                                        <li>
+                                            <a class="popup-photo" href="img/photos/large/8.jpg"><img alt="Photos" src="img/photos/small/8.png"></a>
+                                        </li>
+                                    </ul>
+                                </div><!-- owl carousel end -->
+                            </div><!-- row end -->
+                        </div><!-- container end -->
+                    </div><!-- lower content end -->
+                </div><!-- center container end -->
+            </div><!-- center block end -->
+        </div><!-- photos end -->
+        <!-- contact start -->
+        <div class="lower-page" id="contact">
+            <!-- center container start -->
+            <div class="center-container">
+                <!-- center block start -->
+                <div class="center-block">
+                    <!-- lower content start -->
+                    <div class="lower-content">
+                        <!-- container start -->
+                        <div class="container sections">
+                            <!-- row start -->
+                            <div class="row">
+                                <h4>
+                                    //
+                                </h4>
+                                <h2>
+                                    Contacto <span class="get-behind">Contacto</span>
+                                </h2>
+                            </div><!-- row end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- divider start -->
+                                <div class="dividerOT"></div><!-- divider end -->
+                            </div><!-- row end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <span class="awesome-contact"><span class="fa fa-map-marker"></span></span>
+                                    <p>
+                                        <a href="#">Monterrey, Nuevo Leon, Mexico.</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <span class="awesome-contact"><span class="fa fa-comments-o"></span></span>
+                                    <p>
+                                        <a href="https://facebook.com/ocadeoroesports">Facebook Messenger</a><br/>
+                                        Estamos pendientes a nuestras redes sociales si deseas entablar una conversación profesional.
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <span class="awesome-contact"><span class="fa fa-paper-plane"></span></span>
+                                    <p>
+                                        <a href="mailto:contact@yourdomainname.com">contacto@ocadeoro.com.mx</a><br/>
+                                        Contamos con correo electrónico comercial para tratar asuntos de negocios.
+                                    </p>
+                                </div>
+                            </div><!-- row end -->
+                            <!-- <div class="row"></div> -->
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- contact form start -->
+                                <div class="col-md-12">
+                                    <h3>Envíanos un correo y te contactaremos:</h3>
+                                </div>
+                                <div id="contact-form">
+                                    <form action="https://dialyzable-mention.000webhostapp.com/odoform.php" id="form" method="post" name="send" autocomplete="off">
+                                        <div class="col-md-4">
+                                            <input class="requiredField name" id="name" name="name" placeholder="Nombre (sea como individuo u organización)" type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input class="requiredField email" id="email" name="email" placeholder="Correo electrónico" type="text">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input class="requiredField subject" id="subject" name="subject" placeholder="Motivo" type="text">
+                                        </div>
+                                        <div class="make-space">
+                                            <textarea class="requiredField message" id="message" name="message" placeholder="Dejanos tu mensaje..."></textarea>
+                                        </div>
+                                        <div>
+                                            <button class="submit-button" id="submit" type="submit">Enviar</button>
+                                        </div>
+                                    </form>
+                                </div><!-- contact form end -->
+                            </div><!-- row end -->
+                        </div><!-- container end -->
+                    </div><!-- lower content end -->
+                </div><!-- center container end -->
+            </div><!-- center block end -->
+        </div><!-- contact end -->
+        <!-- scripts start -->
+        <script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>
+        <script src="js/plugins.js" type="text/javascript"></script>
+        <script src="js/fin.js" type="text/javascript"></script><!-- scripts end -->
+    </body>
+</html>
